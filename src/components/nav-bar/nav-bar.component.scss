@@ -1,0 +1,11 @@
+@import "../../styles.scss";
+
+.nav-bar{
+    width: 100%;
+    background-color: $background-secondary;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}

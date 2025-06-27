@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$background-primary: #FFFFFF;
+$background-secondary: #1f1f20;
+$text-primary: #000000;
+$text-secondary: #e6e3e3;
+$finished-color: #f34646;
+$reading-color: #34ac34;
+$read-color: #1210ad;
+$buy-color: #e4d830;
+$block-primary: #080080;
+$block-secondary: #830101;
+
+$font-family: Arial, sans-serif;
+
+
+$mobile: 400px;
+$tablet: 700px;
+$desktop: 1200px;

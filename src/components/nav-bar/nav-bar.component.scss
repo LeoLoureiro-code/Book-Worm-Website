@@ -2,10 +2,34 @@
 
 .nav-bar{
     width: 100%;
-    background-color: $background-secondary;
+    background-color: $block-secondary;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem;    
+}
+
+.logo-div{
+    height: 70px;
+    width: 70px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.menu-div{
+    height: 30px;
+    width: 30px;
+
+    .menu-img{
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
 }

@@ -1,0 +1,22 @@
+@import "../../styles.scss";
+
+.book-form{
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div{
+    width: 100%;
+}
+
+input, label{
+    width: 100%;
+}
+
+label{
+    display: block;
+}

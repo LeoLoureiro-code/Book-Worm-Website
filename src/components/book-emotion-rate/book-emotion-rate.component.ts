@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-book-emotion-rate',
+  selector: 'book-emotion-rate',
   standalone: true,
   imports: [],
   templateUrl: './book-emotion-rate.component.html',

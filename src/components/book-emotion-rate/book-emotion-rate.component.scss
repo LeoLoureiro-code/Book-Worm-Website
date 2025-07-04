@@ -1,0 +1,20 @@
+@import "../../styles.scss";
+
+.book-emotion-rate-div{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 380px;
+    margin-top: 5rem;
+    gap: 2rem;
+    justify-content: center;
+    font-family: $font-family;
+}
+
+.emotion-rate-button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}

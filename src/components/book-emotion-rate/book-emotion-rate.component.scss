@@ -17,4 +17,25 @@
     border: none;
     outline: none;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.emotion-funny{
+    border: 5px solid $book-funny;
+}
+
+.emotion-tought-provoking{
+    border: 5px solid $book-tought-provoking;
+}
+
+.emotion-boring{
+    border: 5px solid $book-boring;
+}
+
+.emotion-exciting{
+    border: 5px solid $book-exciting;
+}
+
+.emotion-inspiring{
+    border: 5px solid $book-inspiring;
 }

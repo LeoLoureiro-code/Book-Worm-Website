@@ -2,7 +2,7 @@
 
 .nav-bar{
     width: 100%;
-    background-color: $block-secondary;
+    background-color: $block-primary;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -11,8 +11,8 @@
 }
 
 .logo-div{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 
     img{
         width: 100%;

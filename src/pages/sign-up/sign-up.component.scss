@@ -13,6 +13,10 @@
 .signup-image-div{
     width: 380px;
 
+    @media screen and (max-width: $tablet) {
+        display: none;
+    }
+
     .signup-image{
         width: 100%;
         height: auto;

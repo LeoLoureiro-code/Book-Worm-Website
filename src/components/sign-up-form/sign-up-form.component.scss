@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid $background-secondary;
+    outline: none;
+    padding: 1rem;
+}

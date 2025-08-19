@@ -8,12 +8,15 @@ import { map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'https://localhost:5001/Bookworm/auth';
+  private apiUrl = 'https://localhost:7046/Bookworm/Auth/login';
 
   constructor(private http: HttpClient) {}
 
- login(username: string, password: string): Observable<AuthResult> {
-    return this.http.post<AuthResult>(this.apiUrl, { username, password }).pipe(
+  login(username: string, password: string): Observable<AuthResult> {
+    return this.http.post<AuthResult>(this.apiUrl, { 
+      email: username, 
+      password: password 
+    }).pipe(
       map((res) => {
         return {
           accessToken: res.accessToken,
@@ -23,9 +26,9 @@ export class AuthService {
       })
     );
   }
-
 }
-export interface AuthResult{
+
+export interface AuthResult {
   accessToken: string;
   refreshToken: string;
   userId: string | null;
